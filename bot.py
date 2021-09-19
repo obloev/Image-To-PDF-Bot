@@ -22,6 +22,7 @@ def start(message):
     bot.send_message(chat_id, f"*🤖 Assalomu alaykum* [{user_name}](tg://user?id={chat_id})!\n\n"
                               f"⚠️ Botdan foydalanish uchun unga PDF qilishni istayotgan rasmlaringizni tartib bilan "
                               f"yuboring\n\n"
+                              f"⚠️Agar Word dokumentni PDF qilmoqchi bo'lsangiz, shunchaki word fayl jo'nating\n\n"
                               f"Aloqa uchun {admin}",
                      parse_mode='Markdown')
 
